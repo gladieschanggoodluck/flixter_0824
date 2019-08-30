@@ -6,3 +6,14 @@
 
    - bundle exec rake db:setup
    - bundle exec rake spec
+
+# Ruby is our language as asciidoctor is a ruby gem.
+before_install:
+  - sudo apt-get install pandoc
+  - gem install asciidoctor
+script:
+  - make
+after_success:
+  - .travis/push.sh
+env:
+  global:   
