@@ -1,8 +1,0 @@
-#config/application.yml
-
-AWS_ACCESS_KEY: "AKIA5QNTXSMEBOSHVTEI"
-AWS_SECRET_KEY: "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"
-AWS_BUCKET:     "gladieschang0914"
-AWS_REGION:     "us-east-1"
-SECRET_KEY: 'sk_test_yhp7eP1buuTIZjIftucBLGOd00g9zppDWm'
-PUBLISHABLE_KEY: 'pk_test_RKMP3DAPIumv2BSzARL6xcVT00ZP7TLYHP '
